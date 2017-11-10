@@ -1,18 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Desarrollo web para novatos</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
-<div class="absolute">
-  <p>elemento1</p>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Desarrollo web para novatos</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Menu 1</a></li>
+        <li><a href="#">Menu 2</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row">
+
+    <!-- Menu izquierdo -->
+    <div class="col-md-4 col-sm-4 hidden-xs">
+      <ul class="list-group">
+        <li class="list-group-item"><a href="">menu 1</a></li>
+        <li class="list-group-item"><a href="">menu 2</a></li>
+        <li class="list-group-item"><a href="">menu 3</a></li>
+      </ul>
+    </div><!-- /Menu izquierdo -->
+
+    <!-- Contenido -->
+    <div class="col-md-8 col-sm-8">
+
+      <!-- Jumbotron superior -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">
+            <h2>Titulo de mi web</h2>
+            <p>Lorem ipsum dolor sit amen</p>
+          </div>
+        </div>
+      </div><!-- /Jumbotron superior -->
+
+
+      <div class="row">
+
+        <div class="col-md-8">
+         <div class="panel panel-info">
+           <div class="panel-heading">Ultimas novedades</div>
+
+           <div class="panel-body">
+             <p>Ultimas novedades en maquetacion</p>
+           </div>
+
+           <div class="list-group">
+             <li class="list-group-item"><a href="">Novedad 1</a></li>
+             <li class="list-group-item"><a href="">Novedad 2</a></li>
+           </div>
+
+         </div>
+        </div>
+
+        <div class="col-md-4">
+          <img class="img img-responsive img-thumbnail" src="http://via.placeholder.com/600x400">
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 well">
+          <h3>Formulario de contacto</h3>
+          <form>
+
+            <div class="form-group">
+              <label for="email-de-contacto">Email de contacto</label>
+              <input class="form-control" id="email-de-contacto">
+            </div>
+
+            <div class="form-group">
+              <label for="text-de-contacto">Texto de contacto</label>
+              <textarea class="form-control" id="text-de-contacto"></textarea>
+            </div>
+
+            <button class="btn btn-success pull-right">Enviar</button>
+
+
+          </form>
+        </div>
+      </div>
+
+    </div><!-- /Contenido -->
+  </div>
 </div>
 
-
-<p>elemento2</p>
-
-
+<script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
 </html>
