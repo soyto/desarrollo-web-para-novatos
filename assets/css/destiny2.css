@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Lato');
+
+/* font-family: 'Bowlby One SC', cursive; */
+/* font-family: 'Lato', sans-serif; */
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('../img/destiny2/b25.png');
+}
+
+/*  TITLE CONTAINER
+ -------------------------------------------------------------------------------------------------------------------- */
+.title-container {
+  margin-top: 50px;
+}
+.title-container h1.page-title {
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 7em;
+  color: #000;
+}
+
+
+/*  Navbar
+ -------------------------------------------------------------------------------------------------------------------- */
+.destiny2-navbar {
+  background: none;
+  border: 0;
+  text-align: center;
+}
+
+.destiny2-navbar .navbar-nav {
+  font-size: 3em;
+  float: none;
+  display: inline-block;
+}
+
+.destiny2-navbar .navbar-nav>li{
+  background: linear-gradient(#333, #000);
+  margin: 2px 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.destiny2-navbar .navbar-nav>li.active {
+  background: linear-gradient(#888, #555);
+}
+
+.destiny2-navbar .navbar-nav>li.active:hover {
+  background: linear-gradient(#999, #666);
+}
+
+.destiny2-navbar .navbar-nav>li>a,
+.destiny2-navbar .navbar-nav>li>a:focus,
+.destiny2-navbar .navbar-nav>li>a:hover {
+  color: #fff;
+}
+
+.destiny2-navbar .navbar-nav>li:hover {
+  background: linear-gradient(#444, #111);
+}
+
+
+.destiny2-navbar .navbar-nav>.active>a, .destiny2-navbar .navbar-nav>li>a:hover  {
+  background: none !important;
+  color: #fff !important;
+}
